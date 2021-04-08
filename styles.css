@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 6em;
+   
+}
+main ul li{
+    list-style-type:square;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+div.profie-name{
+    max-width: 40%;
+}
+header h1{
+    font-size: 4em;
+    margin: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 40%;
+    display: inline;
+}
+header p{
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+div.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-bottom: 2rem;
+   
+}
+h3.summary, h3.work, h3.area, h3.skills, h3.certificate, h3.education-heading, h3.reference{
+    font-size:2em;
+    padding-bottom: 1rem;
+    color: #bd7890;
+}
+p.profile-summary{
+    font-size:1.3em ;
+    padding-bottom: 1rem;
+}
+div.competence, div.skill{
+    margin-bottom: 2rem;
+}
+div.work-experience, div.certification{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+div.work, div.certificate-list, div.education-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+h4.company-name, h4.time, h4.cisco, h4.school-name{
+    font-size: 1.3em;
+    
+}
+p.title, p.degree{
+    font-size: 1.1em;
+}
+p.competence-list, div.skill-list p, p.reference-list{
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+    
+    header h1{
+        font-size: 2em;
+    }
+    header p{
+        font-size: 1.2em;
+        margin-bottom: 0.3rem;
+    }
+    h3.summary, h3.work, h3.area, h3.skills, h3.certificate, h3.education-heading, h3.reference{
+        font-size: 1.2em;
+    }
+    p.profile-summary{
+        font-size: 1em;
+    }
+    h4.company-name, h4.time, h4.cisco, h4.school-name,p.competence-list, div.skill-list p, p.reference-list{
+        font-size: 1em;
+    }
+   
+    
+
+}
